@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slids",
+  "info": {
+    "singularName": "slid",
+    "pluralName": "slids",
+    "displayName": "slid"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

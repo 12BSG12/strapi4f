@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answers_on_questions",
+  "info": {
+    "singularName": "answers-on-question",
+    "pluralName": "answers-on-questions",
+    "displayName": "answers on question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}
